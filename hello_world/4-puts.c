@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * struct main - Short description
+ * main - Short description
  * @puts: First member
  * Description: Longer description
  */
