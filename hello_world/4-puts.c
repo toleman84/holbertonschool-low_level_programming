@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * Comment
- * Betty
- * style
+ * struct main - Short description
+ * @puts: First member
+ * 
+ * Description: Longer description
  */
 
 int main(void)
