@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Short description
+ * main - Entry point
  * @puts: First member
- * Description: Longer description
  */
 
 int main(void)
