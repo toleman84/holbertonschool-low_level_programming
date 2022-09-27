@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * @puts: First member
+ * Return : Always 0 (Success)
  */
 
 int main(void)
