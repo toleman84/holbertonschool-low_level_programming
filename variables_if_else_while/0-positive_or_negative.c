@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /** 
- * more headers goes there
+ * main - Short description
  *
- * betty style doc for function main goes there
+ * Return: 0 (Success)
  */
 
 int main(void)
