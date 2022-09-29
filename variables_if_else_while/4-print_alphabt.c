@@ -9,9 +9,9 @@
 int main(void)
 {
 
-char abc = 'a';
+char abc= 'a';
 
-while (abc <= 'z'; abc++;)
+for (; abc <= 'z'; abc++ ;)
 {
 if (abc != 'e' && abc != 'q')
 putchar(abc);
