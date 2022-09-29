@@ -9,13 +9,12 @@
 int main(void)
 {
 
-char ch = '0';
+int num;
 
-while (ch <= '9')
+for (num = 0; num <= 9; num++)
 {
-putchar(ch);
-ch++;
+putchar(num + '0');
 }
-putchar('\n');
 return (0);
 }
+
