@@ -11,15 +11,15 @@
 int main(void)
 {
 
-char i;
+char abc;
 
-while (i = 'a'; i <= 'z', i++)
+while (abc = 'a'; abc <= 'z'; abc++)
 {
-putchar(i);
+putchar(abc);
 }
-while (i = 'A'; i <= 'Z', i++)
+while (abc = 'A'; abc <= 'Z'; abc++)
 {
-putchar(i);
+putchar(abc);
 }
 putchar('\n');
 return (0);
