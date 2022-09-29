@@ -10,15 +10,14 @@ int main(void)
 {
 
 int i;
-char ch;
 
-for (i = 0; i <= 10; i++)
+for (i = 0; i <= 9; i++)
 {
 putchar(i + '0');
 }
-for (ch = 'a'; ch <= 'f'; ch++)
+for (i = 'a'; i <= 'f'; i++)
 {
-putchar(ch);
+putchar(i);
 }
 
 putchar('\n');
