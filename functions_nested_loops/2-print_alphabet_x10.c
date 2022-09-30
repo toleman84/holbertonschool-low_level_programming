@@ -10,7 +10,6 @@ void print_alphabet_x10(void)
 {
 
 char abc;
-int target = 10,
 
 do
 {
@@ -19,7 +18,7 @@ for (abc = 'a'; abc <= 'z'; abc++)
 _putchar(abc);
 }
 }
-while (abc <= target);
+while (abc <= 10);
 
 _putchar('\n');
 }
