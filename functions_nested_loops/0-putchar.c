@@ -11,8 +11,7 @@
 
 int main(void)
 {
-char ch = "_putchar";
-int i;
+char* ch = "_putchar";
 _putchar(ch);
 return (0);
 }
