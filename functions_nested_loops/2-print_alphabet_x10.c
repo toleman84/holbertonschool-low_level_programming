@@ -15,7 +15,7 @@ for (abc = 'a'; abc <= 'z'; abc++)
 {
 _putchar(abc);
 }
-for (abc <= 10);
+for (abc <= 10;);
 
 _putchar('\n');
 }
