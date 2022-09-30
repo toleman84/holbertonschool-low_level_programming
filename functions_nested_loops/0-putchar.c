@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -13,12 +13,12 @@ int main(void)
 {
 
 char ch[9] = "_putchar";
-int ch;
+int i;
 
-for (ch = 0; ch < 9; ch++);
-_putchar(ch[ch]);
+for (i = 0; i < 9; i++);
+_putchar(ch[i]);
 
-_putchar('\n';)
+_putchar('\n');
 
 return (0);
 }
