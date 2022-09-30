@@ -10,14 +10,17 @@ void print_alphabet_x10(void)
 {
 
 char abc;
-start:
+int target = 10,
+
+do
+{
 for (abc = 'a'; abc <= 'z'; abc++)
 {
 _putchar(abc);
-if (count <= 10)
-goto start;
 }
-_putchar('\n');
+}
+while (abc <= target);
 
+_putchar('\n');
 }
 
