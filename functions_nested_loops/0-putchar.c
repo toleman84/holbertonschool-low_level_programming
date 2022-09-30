@@ -15,6 +15,7 @@ int main(void)
 char ch[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'}
 
 _putchar(ch);
+
 _putchar('\n');
 
 return (0);
