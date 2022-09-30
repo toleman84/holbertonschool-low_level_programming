@@ -13,7 +13,7 @@ char abc;
 
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-for (I in 1 .. 10 loop)
+for (abc in 1 .. 10 loop)
 {
 _putchar(abc);
 }
