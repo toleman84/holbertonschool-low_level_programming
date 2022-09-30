@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- *
- * main - Shortdescription
+ * main - Short description
  *
  * Return: 0 (Success)
- *
  */
 
 int main(void)
