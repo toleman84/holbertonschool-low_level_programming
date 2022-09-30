@@ -12,8 +12,8 @@
 int main(void)
 {
 
-char ch[9] = '_putchar';
-int i;
+char ch[9] = "_putchar";
+int i = 9;
 
 for (i = 0; i < 9; i++);
 _putchar(ch[i] + '0');
