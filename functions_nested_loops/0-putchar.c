@@ -10,8 +10,8 @@
 
 int main(void)
 {
-char ch = "_putchar";
-putchar(ch);
+char ch;
+putchar('_putchar');
 return (0);
 }
 
