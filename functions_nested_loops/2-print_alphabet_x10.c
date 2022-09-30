@@ -10,13 +10,12 @@ void print_alphabet_x10(void)
 {
 
 char abc;
-
+start:
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-for (abc in 1 .. 10 loop)
-{
 _putchar(abc);
-}
+if (count <= 10)
+goto start;
 }
 _putchar('\n');
 
