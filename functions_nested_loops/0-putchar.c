@@ -12,12 +12,9 @@
 int main(void)
 {
 
-char ch[9] = "_putchar";
-int i = 9;
+char ch[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\0'}
 
-for (i = 0; i < 9; i++);
-_putchar(ch[i] + '0');
-
+_putchar(ch);
 _putchar('\n');
 
 return (0);
