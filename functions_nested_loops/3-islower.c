@@ -9,9 +9,9 @@
 int _islower(int c)
 {
 
-char c;
+char abc;
 
-if (_islower(c))
+if (_islower(abc))
 {
 _putchar('1');
 } else {
