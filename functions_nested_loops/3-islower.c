@@ -15,7 +15,7 @@ for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
 {
-_putchar(1 + '0');
+_putchar(1);
 }
 }
 
