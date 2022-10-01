@@ -11,6 +11,8 @@ int _islower(int c)
 
 char abc;
 
+for (abc < 'a'; abc <= 'z'; abc++)
+
 if (_islower(abc))
 {
 _putchar('1');
