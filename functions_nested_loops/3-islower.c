@@ -13,10 +13,10 @@ char abc;
 int true = 1;
 int false = 0;
 
-for (abc = 'a'; abc <= 'z'; abc++)
+abc = _islower(c);
 {
-if (abc == c)
 _putchar(true + '0');
+}
 }
 return (false);
 }
