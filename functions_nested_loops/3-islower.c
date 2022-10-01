@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _islower - Short description
+ * islower - Short description
  *
  * Return: 0 (Success)
  */
 
-int _islower (int c)
+int _islower(int c)
 {
 
 char abc;
