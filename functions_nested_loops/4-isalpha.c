@@ -14,14 +14,9 @@ char abc;
 
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-if (_isalpha(c))
+if (abc == c)
 {
-_putchar('1');
-}
-
-else
-{
-_putchar('0');
+return (1);
 }
 }
 
