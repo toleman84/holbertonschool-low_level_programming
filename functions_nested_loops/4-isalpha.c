@@ -10,6 +10,9 @@
 int _isalpha(int c)
 {
 
+char abc;
+
+for (abc = 'a'; abc <= 'z'; abc++)
 if (_isalpha(c))
 {
 _putchar(1);
