@@ -17,9 +17,9 @@ for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == 'c')
 {
-_putchar('true');
+_putchar(true);
 } else {
-_putchar('false');
+_putchar(false);
 }
 }
 return (0);
