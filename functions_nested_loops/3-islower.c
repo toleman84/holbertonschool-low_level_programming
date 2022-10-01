@@ -4,6 +4,7 @@
  * islower - Short description
  *
  * Return: 0 (Success)
+ * @c: Variable
  */
 
 int _islower(int c)
@@ -15,7 +16,7 @@ for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
 {
-_putchar(1);
+_putchar('1');
 }
 }
 
