@@ -14,7 +14,7 @@ int true = 1;
 int false = 0;
 
 for (abc = 'a'; abc <= 'z'; abc++)
-if (_islower(c))
+if (_islower(abc))
 {
 _putchar(true);
 }
