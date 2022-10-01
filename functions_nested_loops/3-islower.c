@@ -9,18 +9,20 @@
 int _islower(int c)
 {
 
-char c;
+char abc;
 
-for (c < 'a'; c <= 'z'; c++)
+for (abc = 'a'; abc <= 'z'; abc++)
 {
-if (_islower(c))
+if (abc = 'c')
 {
-_putchar('1');
+_putchar('1')
 }
-else {
-_putchar('0');
+else
+{ 
+_putchar('0')
 }
 }
+
 return (0);
 }
 
