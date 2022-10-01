@@ -11,16 +11,20 @@ int _isalpha(int c)
 {
 
 char abc;
+char ABC;
 
-for (abc = 'A'; abc <= 'Z'; abc++)
+for (ABC < 'A'; ABC <= 'Z'; abc++)
 for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
 {
 return (1);
+if (ABC == c)
+{
+return (1);
 }
 }
-
+}
 return (0);
 }
 
