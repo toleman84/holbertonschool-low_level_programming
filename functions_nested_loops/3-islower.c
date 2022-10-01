@@ -10,11 +10,10 @@ int _islower(int c)
 {
 
 char abc;
-int c;
 
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-if (abc == 'c')
+if (abc == c)
 {
 _putchar('1');
 }
