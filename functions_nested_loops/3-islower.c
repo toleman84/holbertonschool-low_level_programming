@@ -16,7 +16,7 @@ int false = 0;
 for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
-_putchar(true + '0');
+_putchar(true);
 }
 return (false);
 }
