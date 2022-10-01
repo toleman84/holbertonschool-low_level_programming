@@ -10,8 +10,7 @@
 int _isalpha(int c)
 {
 
-char abc;
-char ABC;
+char abc, ABC;
 
 for (ABC = 'A'; ABC <= 'Z'; ABC++)
 {
