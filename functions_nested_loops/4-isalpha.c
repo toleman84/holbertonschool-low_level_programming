@@ -10,9 +10,7 @@
 int _isalpha(int c)
 {
 
-int letter;
-
-if (_isalpha(letter))
+if (_isalpha(c))
 {_putchar('1');}
 
 else{_putchar('0');}
