@@ -9,11 +9,11 @@
 int _islower(int c)
 {
 
-char abc;
+char c;
 
-for (abc < 'a'; abc <= 'z'; abc++)
-
-if (_islower(abc))
+for (c < 'a'; c <= 'z'; c++)
+{
+if (_islower(c))
 {
 _putchar('1');
 }
