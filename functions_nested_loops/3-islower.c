@@ -13,7 +13,8 @@ char abc;
 int true = 1;
 int false = 0;
 
-if (islower(c))
+for (abc = 'a'; abc <= 'z'; abc++)
+if (_islower(c))
 {
 _putchar(true);
 }
