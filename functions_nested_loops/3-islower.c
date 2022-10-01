@@ -13,7 +13,7 @@ char abc;
 
 for (abc = 'a'; abc <= 'z'; abc++)
 {
-if (abc = c)
+if (_islower('c'))
 {
 _putchar('1');
 } else {
