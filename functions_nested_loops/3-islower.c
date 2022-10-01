@@ -18,9 +18,5 @@ if (_islower(c))
 {
 _putchar(true);
 }
-else
-{
-_putchar(false);
-}
-return (0);
+return (false);
 }
