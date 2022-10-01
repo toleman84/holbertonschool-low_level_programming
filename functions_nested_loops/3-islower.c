@@ -16,7 +16,7 @@ for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
 {
-return(1);
+return (1);
 }
 }
 
