@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * islower - Short description
+ * _islower - Short description
  *
  * Return: 0 (Success)
  * @c: Variable
