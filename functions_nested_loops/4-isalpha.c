@@ -13,7 +13,8 @@ int _isalpha(int c)
 char abc, ABC;
 
 for (ABC = 'A'; ABC <= 'Z'; ABC++)
-{ if (ABC == c)
+{
+if (ABC == c)
 {
 return (1);
 }
