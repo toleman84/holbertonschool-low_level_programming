@@ -11,7 +11,6 @@ int _islower(int c)
 
 char abc;
 
-for (abc = 'a'; abc <= 'z'; abc++)
 {
 if (abc == c)
 {
