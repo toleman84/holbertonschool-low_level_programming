@@ -12,7 +12,7 @@ int _islower(int c)
 char abc;
 
 {
-if (abc == c)
+if (abc = c)
 {
 _putchar('1');
 } else {
