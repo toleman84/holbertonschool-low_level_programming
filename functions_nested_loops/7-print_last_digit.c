@@ -13,11 +13,19 @@ int print_last_digit(int r)
 if (r >= 0)
 {
 return (r % 10);
+_putchar(r);
+}
+
+else if (r == INT_MIN)
+{
+return (-(r % 10));
+_putchar(r + '0');
 }
 
 else
 {
 return (((-1) * r) % 10);
+_putchar(r);
 }
 
 }
