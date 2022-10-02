@@ -33,7 +33,7 @@ for (mdr = 0; mdr < 10; mdr++)
 	_putchar(' ');
 	}
 	}
-	else //esto es para numeros 10 y 11
+	else
 		{
 		_putchar((n / 10) + '0');
 		_putchar((n % 10) + '0');
