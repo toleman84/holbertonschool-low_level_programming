@@ -14,27 +14,27 @@ int mdr;
 int mnd;
 int n;
 
-for (mdr = 1; mdr < 10; mdr++)
+for (mdr = 0; mdr < 10; mdr++)
 {
 	for (mnd = 0; mnd < 10; mnd++)
 	{
 		n = mdr * mnd;
-	
+
 		_putchar(';');
 		_putchar('/');
 
 		if ((n / 10) == 0)
 		{
-			if (mnd != 0)
+			if (mnd = 0)
+			{
+				_putchar('/');
+				_putchar(n + '0');
+			}
+			else (mnd != 0)
 			{
 				_putchar('+');
 				_putchar(n + '0');
 			}
-		}
-		else if (n == 0)
-		{
-			_putchar('-');
-			_putchar(n + '0');
 		}
 		else
 		{
