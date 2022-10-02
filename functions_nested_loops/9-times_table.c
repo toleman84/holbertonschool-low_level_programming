@@ -26,21 +26,21 @@ for (mdr = 0; mdr <= 9; mdr++)
 		if ((n / 10) == 0)
 		{
 			if (mnd != 0)
-				{
-					_putchar('+');
-					_putchar(n + '0');
-				}
+			{
+				_putchar('+');
+				_putchar(n + '0');
+			}
 		}
 		else if (n == 0)
-		
-		_putchar('-');
-		_putchar(n + '0');
+		{
+			_putchar('-');
+			_putchar(n + '0');
 		}
 		else
-			{
-				_putchar((n / 10) + '0');
-				_putchar((n % 10) + '0');
-			}
+		{
+			_putchar((n / 10) + '0');
+			_putchar((n % 10) + '0');
+		}
 	}
 	_putchar('\n');
 }
