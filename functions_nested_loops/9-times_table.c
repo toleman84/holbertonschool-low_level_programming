@@ -25,6 +25,8 @@ for (mdr = 0; mdr < 10; mdr++)
 
 	if ((n / 10) != 0)
 	{
+	_putchar(',');
+	_putchar(' ');
 	_putchar(n + '0');
 	}
 	}
