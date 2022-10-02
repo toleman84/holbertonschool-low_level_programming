@@ -22,7 +22,7 @@ else
 num = ((-1) * r) % 10;
 }
 
-_putchar((n % 10) + '0');
-return (n % 10);
+_putchar((num % 10) + '0');
+return (num % 10);
 }
 
