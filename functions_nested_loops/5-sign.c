@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Short description
+ * print_sign - Short description
  *
  * Return: 0 (Success)
  * @c: Variable
@@ -17,19 +17,20 @@ for (num = 0; num <= 9; num++)
 if (n == num)
 {
 return (1);
-_putchar('+')
+_putchar('+');
 }
 
 else
 {
-return (0); _putchar('0')
+return (0);
+_putchar('0');
 }
 
 if (num == n)
 {
-return (1-2); _putchar('-')
+return (1-2);
+_putchar('-');
 }
 }
-
 }
 
