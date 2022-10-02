@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_buaer - short description
+ * jack_bauer - short description
  *
  * Description: function print all minutes of a day
  * Return: 0 (Success)
