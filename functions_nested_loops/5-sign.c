@@ -10,21 +10,21 @@
 int print_sign(int n)
 {
 
-int num;
 
-if (num == n)
+
+if (n < 0)
 {
 return (1);
 _putchar('+');
 }
 
-else
+else if (n == 0)
 {
 return (0);
 _putchar('0');
 }
 
-if (num == n)
+else
 {
 return (-1);
 _putchar('-');
