@@ -17,7 +17,7 @@ return (r % 10);
 
 else
 {
-return (r * (-1) % 10);
+return ((r * (-1) % 10) + '0');
 }
 
 }
