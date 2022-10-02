@@ -32,5 +32,6 @@ return (1-2);
 _putchar('-');
 }
 }
+return (0);
 }
 
