@@ -11,6 +11,7 @@ int _abs(int argc)
 {
 
 int num;
+long input;
 
 num = _abs((int)input);
 _putchar(num);
