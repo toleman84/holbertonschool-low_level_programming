@@ -10,8 +10,10 @@
 int _abs(int)
 {
 
-_abs(int);
-_putchar(int);
+int num, n;
+
+n = _abs(int);
+_putchar(n);
 
 return (0);
 }
