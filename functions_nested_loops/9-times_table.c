@@ -22,6 +22,5 @@ _putchar(mdr * mnd);
 }
 }
 
-return (0);
 }
 
