@@ -19,6 +19,7 @@ for (mdr = 0; mdr <= 9; mdr++)
 	for (mnd = 0; mnd <= 9; mnd++)
 	{
 		n = mdr * mnd;
+		_putchar(n + '0');
 		_putchar(',');
 		_putchar(' ');
 
