@@ -4,13 +4,13 @@
  * print_sign - Short description
  *
  * Return: 0 (Success)
- * @c: Variable
+ * @n: Variable
  */
 
 int print_sign(int n)
 {
 
-if (n < 0)
+if (n > 0)
 {
 _putchar('+');
 return (1);
