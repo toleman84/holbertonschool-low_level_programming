@@ -19,8 +19,8 @@ for (mdr = 0; mdr <= 9; mdr++)
 	for (mnd = 0; mnd <= 9; mnd++)
 	{
 		n = mdr * mnd;
-		_putchar('_');
-		_putchar('@');
+		_putchar(',');
+		_putchar(' ');
 
 
 			if ((n / 10) == 0)
