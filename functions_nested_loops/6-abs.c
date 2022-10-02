@@ -16,5 +16,7 @@ r = (-1) * r;
 }
 
 _putchar(r);
+
+return (0);
 }
 
