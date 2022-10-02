@@ -14,7 +14,7 @@ int m;
 
 for (h = 00; h <= 23; h++)
 {
-for (m = 00; h <= 59; m++)
+for (m = 00; h <= 59; m++);
 }
 
 _putchar(h);
@@ -22,5 +22,5 @@ _putchar(':');
 _putchar(m);
 _putchar('\n');
 
-return(0);
+return(void);
 }
