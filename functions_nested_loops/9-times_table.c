@@ -24,6 +24,7 @@ for (mdr = 0; mdr < 10; mdr++)
         _putchar(n + '0');
 	_putchar(',');
 	_putchar(' ');
+        _putchar(' ');
 	}
 	else
 		{
