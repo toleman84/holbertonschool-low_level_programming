@@ -17,6 +17,11 @@ if (r >= 0)
 num = r % 10;
 }
 
+else if (r == INT_MIN)
+{
+num = -(r % 10);
+}
+
 else
 {
 num = ((-1) * r) % 10;
