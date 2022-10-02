@@ -15,13 +15,13 @@ int mnd;
 
 for (mdr = 0; mdr < 10; mdr++)
 {
-{
 for (mnd = 0; mnd < 10; mnd++)
-}
+{
 
 _putchar(mdr * mnd);
 }
+}
 
-return(0);
+return (0);
 }
 
