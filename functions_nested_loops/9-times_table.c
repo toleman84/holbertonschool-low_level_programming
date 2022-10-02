@@ -23,7 +23,7 @@ for (mdr = 0; mdr < 10; mdr++)
 	{
 	_putchar(n + '0');
 	
-		if (n != 0)
+		if (mnd != 0)
 		{
 		_putchar(',');
 		_putchar(' ');
