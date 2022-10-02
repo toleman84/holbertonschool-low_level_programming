@@ -14,7 +14,7 @@ char abc, ABC;
 
 for (ABC = 'A'; ABC <= 'Z'; ABC++)
 {
-	if (ABC == c)
+if (c == ABC)
 {
 return (1);
 }
