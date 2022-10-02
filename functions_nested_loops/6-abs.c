@@ -7,12 +7,14 @@
  * @int: Variable
  */
 
-int _abs(int)
+int _abs(int argc)
 {
 
+int num;
 
-int = abs();
-_putchar(int);
+num = _abs((int)input);
+_putchar(num);
 
 return (0);
 }
+
