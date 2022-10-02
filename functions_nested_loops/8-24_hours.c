@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_buaer - Short description
+ * jack_buaer - Check main
  * Description: print 24 hours
  * Return: Nothing
  */
