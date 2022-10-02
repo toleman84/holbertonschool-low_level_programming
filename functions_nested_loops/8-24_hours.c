@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * jack_buaer - Check main
- * Description: print 24 hours
- * Return: Nothing
+ * jack_buaer - Entry point
+ * 
+ * Return: 0 (Success)
  */
 
 void jack_bauer(void)
