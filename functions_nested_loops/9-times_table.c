@@ -37,6 +37,8 @@ for (mdr = 0; mdr < 10; mdr++)
 		{
 		_putchar((n / 10) + '0');
 		_putchar((n % 10) + '0');
+		_putchar(',');
+		_putchar(' ');
 		}
 }
 	_putchar('\n');
