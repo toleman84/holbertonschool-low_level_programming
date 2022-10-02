@@ -20,14 +20,14 @@ for (mdr = 0; mdr <= 9; mdr++)
 	{
 		n = mdr * mnd;
 	
-		_putchar(',');
-		_putchar(' ');
+		_putchar(';');
+		_putchar('/');
 
 			if ((n / 10) == 0)
 		{
 		if (mnd != 0)
 			{
-				_putchar(' ');
+				_putchar('+');
 				_putchar(n + '0');
 			}
 		}
