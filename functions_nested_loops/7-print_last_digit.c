@@ -13,13 +13,12 @@ int print_last_digit(int r)
 if (r >= 0)
 {
 return (r % 10);
-_putchar(r % 10);
-}
-else
-{
-return ((-1) * r);
-_putchar((-1) * r);
-}
 }
 
+else
+{
+return (r * (-1) % 10);
+}
+
+}
 
