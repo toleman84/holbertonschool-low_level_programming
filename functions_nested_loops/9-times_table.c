@@ -27,13 +27,13 @@ for (mdr = 0; mdr <= 9; mdr++)
 		{
 		if (mnd != 0)
 			{
-				_putchar(' ');
+				_putchar('@');
 				_putchar(n + '0');
 			}
 			else if (mnd == 9)
 				{
 					_putchar(';');
-					_putchar(' ');
+					_putchar(':');
 				}
 		}
 		else
