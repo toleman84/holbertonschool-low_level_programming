@@ -31,7 +31,7 @@ for (mdr = 0; mdr <= 9; mdr++)
 			}
 			else if (mnd == 9)
 				{
-					_putchar('1');
+					_putchar(';');
 					_putchar(' ');
 				}
 		}
