@@ -29,7 +29,7 @@ for (mdr = 0; mdr <= 9; mdr++)
 			}
 			else if (mnd == 9)
 				{
-					continue;
+					
 					_putchar(',');
 					_putchar(' ');
 				}
@@ -40,7 +40,7 @@ for (mdr = 0; mdr <= 9; mdr++)
 				_putchar((n % 10) + '0');
 				if (mnd == 9)
 				{
-						continue;
+						
 						_putchar(',');
 						_putchar(' ');
 				}
