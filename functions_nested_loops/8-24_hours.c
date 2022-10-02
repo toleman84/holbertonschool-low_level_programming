@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * jack_buaer - Entry point
- * 
+ * jack_buaer - Short description
+ *
  * Return: 0 (Success)
  */
 
