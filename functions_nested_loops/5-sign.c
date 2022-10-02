@@ -14,7 +14,7 @@ int num;
 
 for (num = 0; num <= 9; num++)
 {
-if (n == num)
+if (num == n)
 {
 return (1);
 _putchar('+');
@@ -28,7 +28,7 @@ _putchar('0');
 
 if (num == n)
 {
-return (1-2);
+return (-1);
 _putchar('-');
 }
 }
