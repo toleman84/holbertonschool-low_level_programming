@@ -14,9 +14,9 @@ int mdr;
 int mnd;
 int n;
 
-for (mdr = 0; mdr <= 9; mdr++)
+for (mdr = 0; mdr < 10; mdr++)
 {
-	for (mnd = 0; mnd <= 9; mnd++)
+	for (mnd = 0; mnd < 10; mnd++)
 	{
 		n = mdr * mnd;
 	
