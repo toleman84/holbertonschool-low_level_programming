@@ -11,18 +11,11 @@
 int print_last_digit(int r)
 {
 
-int INT_MIN;
 
 if (r >= 0)
 {
 return (r % 10);
 _putchar(r);
-}
-
-else if (r == INT_MIN)
-{
-return (-(r % 10));
-_putchar(r + '0');
 }
 
 else
