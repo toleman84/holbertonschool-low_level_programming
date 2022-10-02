@@ -40,10 +40,7 @@ for (mdr = 0; mdr <= 9; mdr++)
 			{
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
-				if (mnd == 9)
-				{
-						_putchar(':');
-				}
+				
 			}
 	}
 	_putchar('\n');
