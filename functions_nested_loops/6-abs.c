@@ -4,7 +4,7 @@
  * _abs - Short description
  *
  * Return: 0 (Success)
- * @int: Variable
+ * @r: Variable
  */
 
 int _abs(int r)
@@ -13,10 +13,9 @@ int _abs(int r)
 if (r < 0)
 {
 r = (-1) * r;
+_putchar(r);
 }
 
-_putchar(r);
-
-return (0);
+return (r);
 }
 
