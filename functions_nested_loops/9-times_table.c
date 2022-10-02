@@ -43,7 +43,6 @@ for (mdr = 0; mdr <= 9; mdr++)
 				if (mnd == 9)
 				{
 						_putchar(':');
-						_putchar(' ');
 				}
 			}
 	}
