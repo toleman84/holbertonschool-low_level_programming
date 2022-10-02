@@ -10,6 +10,8 @@
 int print_last_digit(int r)
 {
 
+int INT_MIN;
+
 if (r >= 0)
 {
 return (r % 10);
@@ -28,5 +30,6 @@ return (((-1) * r) % 10);
 _putchar(r);
 }
 
+return (0);
 }
 
