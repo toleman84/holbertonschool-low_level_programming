@@ -45,9 +45,8 @@ for (mdr = 0; mdr <= 9; mdr++)
 						_putchar(' ');
 				}
 			}
-	
-	_putchar('\n');
 	}
+	_putchar('\n');
 }
 
 }
