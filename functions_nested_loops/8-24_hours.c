@@ -2,8 +2,8 @@
 
 /**
  * jack_buaer - Short description
- *
- * Return: 0 (Success)
+ * Description: print 24 hours
+ * Return: Nothing
  */
 
 void jack_bauer(void)
@@ -17,9 +17,9 @@ for (h = 00; h <= 23; h++)
 for (m = 00; h <= 59; m++)
 {
 
-_putchar(h);
+_putchar(h + '0');
 _putchar(':');
-_putchar(m);
+_putchar(m + '0');
 _putchar('\n');
 }
 }
