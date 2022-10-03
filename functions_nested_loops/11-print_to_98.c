@@ -15,7 +15,7 @@ if (n <= 98)
 {
 for (; n <= 98; n++)
 	{
-	if{
+	if (n <= 98) {
 	printf("%d", n);
 	printf(", ");}else (n == 98){printf("%d", n);}
 	}
@@ -25,7 +25,7 @@ else
 {
 for (; n >= 98; n--)
 	{
-	if {
+	if (n >= 98) {
 	printf("%d", n);
 	printf(", ");}else (n == 98){printf("%d", n);}
 	}
