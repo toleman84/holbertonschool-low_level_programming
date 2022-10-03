@@ -19,7 +19,7 @@ for (; n <= 98; n++)
 	{
 		printf("%d", n);
 		printf(", ");}
-	else (n == 98)
+	if (n == 98)
 	{
 		printf("%d", n);
 	}
@@ -35,7 +35,7 @@ for (; n >= 98; n--)
 		printf("%d", n);
 		printf(", ");
 	}
-	else (n == 98)
+	if (n == 98)
 	{
 		printf("%d", n);}
 	}
