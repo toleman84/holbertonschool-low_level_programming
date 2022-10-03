@@ -16,24 +16,33 @@ int n;
 
 for (mdr = 0; mdr < 10; mdr++)
 {
-	for (mnd = 0; mnd < 10; mnd++)
-	{
-		n = mdr * mnd;
+for (mnd = 0; mnd < 10; mnd++)
+{
+n = mdr * mnd;
 
-	if ((n / 10) == 0)
-		{
-		if (mnd == 0){_putchar(n + '0');}
-		else {_putchar(',');_putchar(' ');_putchar(' ');_putchar(n + '0');}
-		}
-	else
-		{
-                _putchar(',');
-                _putchar(' ');
-		_putchar((n / 10) + '0');
-		_putchar((n % 10) + '0');
-		}
+if ((n / 10) == 0)
+{
+if (mnd == 0)
+{
+_putchar(n + '0');
 }
-	_putchar('\n');
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar(' ');
+_putchar(n + '0');
+}
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar((n / 10) + '0');
+_putchar((n % 10) + '0');
+}
+}
+_putchar('\n');
 }
 }
 
