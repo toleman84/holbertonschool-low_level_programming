@@ -15,21 +15,19 @@ if (n <= 98)
 {
 for (; n <= 98; n++)
 	{
-	_putchar(n);
-	_putchar(',');
-	_putchar(' ');
+	printf("%d", n);
+	printf(", ");
 	}
-_putchar('\n');
+printf("\n");
 }
 else
 {
 for (; n >= 98; n--)
 	{
-	_putchar(n);
-	_putchar(',');
-	_putchar(' ');
+	printf("%d", n);
+	printf(", ");
 	}
-_putchar('\n');
+printf("\n");
 }
 
 }
