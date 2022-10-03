@@ -19,9 +19,9 @@ for (; n <= 98; n++)
 	{
 		printf("%d", n);
 		printf(", ");}
-	if (n == 98)
+	else if (n == 98)
 	{
-		continue;
+		printf("%d", n);
 	}
 	}
 printf("\n");
@@ -35,9 +35,9 @@ for (; n >= 98; n--)
 		printf("%d", n);
 		printf(", ");
 	}
-	if (n == 98)
+	else if (n == 98)
 	{
-		continue;
+		printf("%d", n);
 	}
 	}
 
