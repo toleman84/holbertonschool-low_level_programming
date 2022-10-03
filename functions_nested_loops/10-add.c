@@ -2,21 +2,15 @@
 
 /**
  * add - Short description
- * @num1: integer num1
- * @num2: integer num2
+ * @a: integer a
+ * @b: integer b
  * Description: 
  * Return: 0 (Success)
  */
 
-int add(int num1, int num2)
+int add(int a, int b)
 {
 
-int num1;
-int num2;
-int sum;
-
-sum = num1 + sum2;
-
-return (0);
+return (a + b);
 }
 
