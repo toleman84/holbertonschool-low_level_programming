@@ -29,9 +29,7 @@ else
 		_putchar(' ');
 		}
 }
-
 _putchar('\n');
 
-return (0);
 }
 
