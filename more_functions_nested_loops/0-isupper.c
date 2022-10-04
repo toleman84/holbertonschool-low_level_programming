@@ -6,10 +6,10 @@
  * Return: Always 0 (Success)
  */
 
-nt _isupper(int c)
+int _isupper(int c)
 {
 
-char c;
+int c;
 
 if (c >= 'A' && c <= 'Z')
 {
