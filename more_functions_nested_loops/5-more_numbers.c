@@ -16,8 +16,15 @@ for (num = 1; num <= 10; num++)
 {
 for (nums = 0; nums <= 14; nums++)
 {
+if (nums <= 9)
+{
+_putchar(nums + '0');
+}
+else if (nums > 9)
+{
 _putchar((nums / 10) + '0');
 _putchar((nums % 10) + '0');
+}
 }
 _putchar('\n');
 }
