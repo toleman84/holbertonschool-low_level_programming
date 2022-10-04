@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - Short description
+ * print_diagonal - Short description
  *
  * Return: Always 0 (Success)
  */
@@ -26,5 +26,5 @@ _putchar('\n');
 
 _putchar('\n');
 
-return (void);
+return (print_diagonal);
 }
