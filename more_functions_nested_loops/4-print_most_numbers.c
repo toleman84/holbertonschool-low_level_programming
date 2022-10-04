@@ -17,7 +17,6 @@ if (num != '2' && num != '4')
 {
 _putchar(num);
 }
-_putchar('\n');
 }
-
+_putchar('\n');
 }
