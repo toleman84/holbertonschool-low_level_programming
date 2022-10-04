@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - Short description
- *
+ * @n: Variable
  * Return: Always 0 (Success)
  */
 
@@ -24,7 +24,7 @@ _putchar('\\');
 _putchar('\n');
 }
 
-_putchar('\n');
+
 
 
 }
