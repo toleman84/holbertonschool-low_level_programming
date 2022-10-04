@@ -26,5 +26,5 @@ _putchar('\n');
 
 _putchar('\n');
 
-return (print_diagonal);
+return (0);
 }
