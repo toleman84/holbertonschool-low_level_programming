@@ -1,0 +1,4 @@
+CC=gcc
+SRC=school.c 1-Makefile
+all: school 1-Makefile
+	$(CC) $(SRC) -o school 1-Makefile
