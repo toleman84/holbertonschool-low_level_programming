@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - Short description
+ * _isupper - Short description
  *
  * Return: Always 0 (Success)
+ * @c: Variable
  */
 
 int _isupper(int c)
@@ -13,7 +14,7 @@ char ABC;
 
 for (ABC = 'A'; ABC <= 'Z'; ABC++)
 {
-if (ABC == c)
+if (c == ABC)
 {
 return (1);
 }
