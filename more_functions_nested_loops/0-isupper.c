@@ -9,14 +9,14 @@
 int _isupper(int c)
 {
 
-int ch;
+char ABC;
 
-if (ch = 'A'; ch <= 'Z'; ch++)
+for (ABC = 'A'; ABC <= 'Z'; ABC++)
 {
+if (ABC == c)
+}
 return (1);
 }
-else {
-return (0);
 }
 
 return (0);
