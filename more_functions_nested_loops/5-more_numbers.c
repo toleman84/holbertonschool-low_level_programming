@@ -22,9 +22,9 @@ if (nums > 9)
 _putchar((nums / 10) + '0');
 _putchar((nums % 10) + '0');
 }
-
-_putchar('\n');
 }
+_putchar('\n');
+
 }
 
 }
