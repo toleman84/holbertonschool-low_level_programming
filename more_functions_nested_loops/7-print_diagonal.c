@@ -15,7 +15,7 @@ char j;
 for (; i < n; i++)
 {
 
-if (n < 0)
+if (n <= 0)
 {
 _putchar('\n');
 }
@@ -23,6 +23,9 @@ _putchar('\n');
 for (j = 1; j <= i; ++j)
 {
 _putchar(' ');
+
+
+
 }
 
 _putchar('\\');
