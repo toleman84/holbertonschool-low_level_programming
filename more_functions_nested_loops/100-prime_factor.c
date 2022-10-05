@@ -11,7 +11,6 @@ int main ()
 {
 
 long int n = 612852475143;
-int n2, n3;
 
 if (n % 2 == 0) { printf("2"); }
 else if (n % 3 == 0) { printf("3"); }
