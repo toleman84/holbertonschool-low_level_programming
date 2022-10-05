@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * print_diagonal - Short description
- * @n: Variable
+ * main - Short description
+ *
  * Return: Always 0 (Success)
  */
 
@@ -10,9 +10,9 @@ int main(){
 
 int num;
 
-for (; num <= 100; num++){
+for (num = 1; num <= 100; num++){
 
-if (num % 3 == 0 && num % 5 == 0){printf("FizzBuzz ");}
+if ((num % 3) == 0 && (num % 5) == 0){printf("FizzBuzz ");}
 
 else if (num % 3 == 0) {printf("Fizz ");}
 
