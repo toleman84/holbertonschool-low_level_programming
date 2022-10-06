@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Short description
- * @*n Variable
+ * reset_to_98 - Short description
+ * @n Variable
  * Return: 0 (Success)
  */
 
