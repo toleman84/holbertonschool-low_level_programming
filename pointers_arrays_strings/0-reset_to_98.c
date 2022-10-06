@@ -11,7 +11,6 @@ void reset_to_98(int *n)
 {
 
 *n = 98;
-printf("Value of 'n' %d \n", *n);
 
 
 }
