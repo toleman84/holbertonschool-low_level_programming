@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - Short description
@@ -9,15 +10,7 @@
 void reset_to_98(int *n)
 {
 
-int n;
-int *p;
-
-p = &n;
-
-printf("Address of 'n' : %p \n", &n);
-printf("Value of 'p' : %p \n", p);
-
-*p = 98;
+*n = 98;
 printf("Value of 'n' %d \n", n);
 
 
