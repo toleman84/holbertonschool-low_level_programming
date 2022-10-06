@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - Short description
+ * swap_int - Short description
  *
  * Return: Always 0 (Success)
- * @c: Variable
+ * @a: Variable
+ * @b: Variable
  */
 
 void swap_int(int *a, int *b)
