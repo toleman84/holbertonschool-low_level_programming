@@ -16,10 +16,10 @@ for (i = 0; s[i] - 1; i++)
 {
 
 for (; i ;){
-putchar(s[--i]);
+_putchar(s[--i]);
 }
 }
-putchar('\n');
+_putchar('\n');
 
 }
 
