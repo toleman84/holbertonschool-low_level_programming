@@ -19,7 +19,7 @@ n = (len - 1) / 2;
 
 for (i = 0; i < n; i++)
 {
-_putchar(n);
+_putchar(n + '0');
 
 }
 _putchar('\n');
