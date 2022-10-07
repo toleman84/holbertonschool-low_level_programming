@@ -20,6 +20,7 @@ _putchar(str[i]);
 s[i/2] = str[i];
 
 }
+_putchar(s);
 _putchar('\n');
 
 }
