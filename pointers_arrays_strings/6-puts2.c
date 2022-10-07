@@ -15,7 +15,6 @@ int i;
 
 for (i = 0; str[i] != '\0'; i+=2)
 {
-s[i/2] = str[i];
 _putchar(str[i]);
 
 }
