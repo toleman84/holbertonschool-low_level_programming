@@ -17,7 +17,7 @@ int len;
 
 while (str[len] != '0')
 len++;
-{
+{{
 if (len % 2 == 0)
 n = len / 2;
 }
@@ -25,7 +25,7 @@ else
 {
 n = (len + 1) / 2;
 }
-
+}
 while (i = 0; i < len; i++)
 {
 _putchar(str[i]);
