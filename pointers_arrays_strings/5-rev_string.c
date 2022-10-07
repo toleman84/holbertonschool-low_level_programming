@@ -11,20 +11,23 @@
 void rev_string(char *s)
 {
 
-int i;
-int len;
+int i = 0;
+int len = 0;
 char temp;
 
 len = strlen(s);
 
-for (i = 0; i < len/2; i++)
+while (s[len] != '\0')
+i++;
+
+{
+while (i < len--)
 {
 temp = s[i];
-s[i] = s[len - i - 1];
-s[len - i - 1] = temp;
-
+s[i++] = s[len];
+s[len] = temp;
 }
-_putchar('\n');
+}
 
 }
 
