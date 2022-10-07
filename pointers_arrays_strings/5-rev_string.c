@@ -15,15 +15,15 @@ int i;
 int len;
 char temp;
 
-len = strlen(s);
 
-for (i = 0; s[len] != '\0'; i++)
+
+for (i = 0; s[len] != '\0'; len++)
 {
 for (i < len--)
 {
 temp = s[i];
-s[i] = s[len - i - 1];
-s[len - i - 1] = temp;
+s[i++] = s[len];
+s[len] = temp;
 
 }
 }
