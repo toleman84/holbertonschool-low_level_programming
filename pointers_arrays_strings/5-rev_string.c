@@ -17,12 +17,15 @@ char temp;
 
 len = strlen(s);
 
-for (i = 0; s[i] != '\0'; i++)
+for (i = 0; s[len] != '\0'; i++)
+{
+for (i < len--)
 {
 temp = s[i];
 s[i] = s[len - i - 1];
 s[len - i - 1] = temp;
 
+}
 }
 
 }
