@@ -15,13 +15,18 @@ int i;
 int n;
 int len;
 
-for (str[len] != '0'; len++)
+while (str[len] != '0')
+len++;
 {
-n = (str - 1) / 2;
-
+if (len % 2 == 0)
+n = len / 2;
+}
+else
+{
+n = (len + 1) / 2;
 }
 
-for (i = 0; i < len; i++)
+while (i = 0; i < len; i++)
 {
 _putchar(str[i]);
 
