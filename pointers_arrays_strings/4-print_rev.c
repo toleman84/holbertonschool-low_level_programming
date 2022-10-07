@@ -12,7 +12,7 @@ void print_rev(char *s)
 {
 
 int i;
-int len;
+
 int temp;
 
 
