@@ -12,7 +12,6 @@ void puts2(char *str)
 {
 
 int i;
-char s[32] = "";
 
 for (i = 0; str[i] != '\0'; i+=2)
 {
