@@ -10,7 +10,7 @@
 void _puts(char *str)
 {
 
-int _puts(const char *str);
+printf("%d", *str);
 
 
 }
