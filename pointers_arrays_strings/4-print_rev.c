@@ -23,7 +23,7 @@ temp = s[i];
 s[i] = s[i - 1];
 s[i - 1] = temp;
 
-_putchar(s[i - 1]);
+_putchar(s);
 
 }
 _putchar('\n');
