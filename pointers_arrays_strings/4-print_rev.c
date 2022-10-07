@@ -16,7 +16,7 @@ for (i = 0; s[i] - 1; i++)
 {
 
 for (; i ;){
-_putchar(s[--i]);
+_putchar(s[i]);
 }
 }
 _putchar('\n');
