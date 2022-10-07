@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _puts - Short description
+ * puts_half - Short description
  *
  * Return: Always 0 (Success)
  * @str: Variable
@@ -16,7 +16,11 @@ int len = strlen(str);
 
 n = (len - 1) / 2;
 
-_putchar(n + '0');
+for (i = 0; i < n; i++)
+{
+_putchar(n);
+
+}
 _putchar('\n');
 
 }
