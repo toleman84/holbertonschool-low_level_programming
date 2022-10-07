@@ -14,12 +14,13 @@ int i;
 int temp;
 
 
-for (i = 0; i <= s; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
-temp = s;
-s = s[i - 1];
+temp = [i];
+s[i] = s[i - 1];
 s[i - 1] = temp;
 
+_putchar(s[i]);
 }
 
 }
