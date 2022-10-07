@@ -1,5 +1,5 @@
 #include "main.h"
-#include <strig.h>
+#include <string.h>
 
 /**
  * puts2 - Short description
