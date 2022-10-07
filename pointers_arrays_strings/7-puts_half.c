@@ -16,8 +16,7 @@ int len = strlen(str);
 
 n = (len - 1) / 2;
 
-_putchar(n);
-
+_putchar(n + '0');
 _putchar('\n');
 
 }
