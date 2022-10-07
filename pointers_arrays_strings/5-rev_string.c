@@ -15,7 +15,7 @@ int i = 0;
 int len = 0;
 char temp;
 
-len = strlen(s);
+
 
 while (s[len] != '\0')
 i++;
