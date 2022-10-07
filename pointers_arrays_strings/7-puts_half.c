@@ -13,8 +13,9 @@ void puts_half(char *str)
 
 int i;
 int n;
+int s = *str;
 
-n = (str - 1) / 2;
+n = (s - 1) / 2;
 
 for (i = 0; i < n; i++)
 {
