@@ -16,11 +16,10 @@ char s[32] = "";
 
 for (i = 0; str[i] != '\0'; i+=2)
 {
-_putchar(str[i]);
 s[i/2] = str[i];
+_putchar(str[i]);
 
 }
-_putchar(s);
 _putchar('\n');
 
 }
