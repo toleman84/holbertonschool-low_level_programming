@@ -17,7 +17,7 @@ int temp;
 
 len = strlen(s);
 
-for (i = 0; i < len/2; i++)
+for (i = 0; i < s[i] != '\0'; i++)
 {
 
 temp = s[i];
