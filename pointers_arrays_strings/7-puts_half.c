@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _puts - Short description
@@ -13,7 +14,7 @@ void puts_half(char *str)
 int n;
 int len = strlen(str);
 
-n = (len - 1) / 2
+n = (len - 1) / 2;
 
 _putchar(n);
 
