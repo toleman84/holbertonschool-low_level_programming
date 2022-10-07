@@ -15,9 +15,9 @@ int i;
 for (i = 0; s[i] - 1; i++)
 {
 
-for (i)
+for (; i ;){
 putchar(s[--i]);
-
+}
 }
 putchar('\n');
 
