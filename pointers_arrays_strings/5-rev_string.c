@@ -19,7 +19,7 @@ char temp;
 
 for (i = 0; s[len] != '\0'; len++)
 {
-for (i < len--)
+for (; i < len-- ;)
 {
 temp = s[i];
 s[i++] = s[len];
