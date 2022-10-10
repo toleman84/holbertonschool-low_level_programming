@@ -26,7 +26,7 @@ dest[lengh] = src[j];
 lengh++;
 j++;
 }
-dest[i] = '\0';
+dest[lengh] = '\0';
 
 return (dest);
 }
