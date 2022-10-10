@@ -15,8 +15,8 @@ int i, h, k;
 
 for (i = 0; str[i] != '\0'; i++)
 {
-h = i / 2;
-for (k = h; k <= i; k++)
+h = str[i] / 2;
+for (k = h; k <= str[i]; k++)
 {
 _putchar(str[i]);
 }
