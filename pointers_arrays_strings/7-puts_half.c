@@ -22,10 +22,6 @@ if (lengh % 2 != 0)
 {
 n = (lengh - 1) / 2;
 }
-else
-{
-n = (lengh / 2);
-}
 
 for (i = n; i < lengh; i++)
 {
