@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * print_last_digit - Short description
+ * _strcpy - Short description
  *
  * Return: 0 (Success)
- * @r: Variable
+ * @src: Variable
+ * @dest: Variable
  */
 
 char *_strcpy(char *dest, char *src)
 {
 
-while (scr)
+while (src)
 {
 dest = src;
 src++;
