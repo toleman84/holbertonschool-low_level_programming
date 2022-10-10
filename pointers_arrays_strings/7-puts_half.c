@@ -21,7 +21,7 @@ for (lengh = 0; str[lengh] != '\0'; lengh++)
 if (lengh % 2 != 0)
 {
 n = (lengh - 1) / 2;
-for (i = n; i < lengh; i++)
+for (i = n; i < str[lengh]; i++)
 {
 _putchar(str[i]);
 }
