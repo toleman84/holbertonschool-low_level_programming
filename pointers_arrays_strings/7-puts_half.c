@@ -18,11 +18,12 @@ int n;
 for (lengh = 0; str[lengh] != '\0'; lengh++){
 if (i % 2 == 0){n = lengh / 2;}
 else {n = (lengh + 1) / 2;}
+}
 for (i = n; i < lengh; i++)
 {
 _putchar(str[i]);
 }
-}
+
 _putchar('\n');
 }
 
