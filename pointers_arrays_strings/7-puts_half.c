@@ -19,17 +19,8 @@ h = i / 2;
 for (k = h; k <= i; k++)
 {
 _putchar(str[i]);
-
-
-if (str[i] % 2 != 0)
-{
-n = (i - 1) / 2;
-for (g = n; g <= i; g++)
-_putchar(str[g]);
 }
 }
-}
-
 _putchar('\n');
 }
 
