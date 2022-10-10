@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * _strcat - Short description
+ * _strncat - Short description
  *
  * Return: 0 (Success)
  * @dest: Variable
  * @src: Variable
+ * @n: Variable
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 
-int j;
+int j = 0;
 int lengh = 0;
 
 while (dest[lengh] != '\0')
@@ -19,15 +20,14 @@ while (dest[lengh] != '\0')
 ++lengh;
 }
 
-for (j = 0; src[j] != '\0'; ++j, ++lengh)
+while (src[j] != src[n])
 {
 dest[lengh] = src[j];
+lengh++;
+j++;
 }
-
-for (j = 0; j < n; j++)
-{
-if (src[j] < n){dest[lengh] = '\0';}
-}
+dest[i] = '\0';
 
 return (dest);
 }
+
