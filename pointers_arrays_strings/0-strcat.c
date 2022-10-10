@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - Short description
+ * _strcat - Short description
  *
  * Return: 0 (Success)
  * @dest: Variable
