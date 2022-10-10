@@ -16,6 +16,7 @@ int lengh = 0;
 
 while (str[lengh])
 lengh++;
+lengh -= 1;
 
 for (i = 0; i <= lengh; i += 2)
 {
