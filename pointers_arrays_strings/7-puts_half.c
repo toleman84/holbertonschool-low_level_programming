@@ -11,12 +11,14 @@
 void puts_half(char *str)
 {
 
-int i, k, n;
+int i;
+int lengh;
+int n;
 
-for (i = 0; str[i] != '\0'; i++){
-if (i % 2 == 0){n = i / 2;}
-else {n = (i + 1) / 2;}
-for (k = n; k <= str[i]; k++)
+for (lengh = 0; str[lengh] != '\0'; lengh++){
+if (i % 2 == 0){n = lengh / 2;}
+else {n = (lengh + 1) / 2;}
+for (i = n; i < lengh; i++)
 {
 _putchar(str[i]);
 }
