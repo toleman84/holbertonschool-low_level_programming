@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  * @a: Variable
- * @n: Variable
+ * @ni: Variable
  */
 
 void print_array(int *a, int n)
@@ -21,8 +21,7 @@ if (i < n - 1)
 printf(", ");
 
 }
-printf("\n");
 }
-
+printf("\n");
 }
 
