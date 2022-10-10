@@ -17,7 +17,7 @@ for (i = 0; str[i]; i += 2)
 {
 _putchar(str[i]);
 
-}}
+}
 _putchar('\n');
 
 }
