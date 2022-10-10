@@ -11,9 +11,14 @@
 void puts2(char *str)
 {
 
-int i;
+int i, k;
 
-for (i = 0; str[i] != '\0'; i += 2)
+for (k = 0; str[k] != '\0'; k++)
+{
+k -= 1;
+}
+
+for (i = 0; i <= k; i += 2)
 {
 _putchar(str[i]);
 
