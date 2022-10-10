@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * swap_int - Short description
+ * print_array - Short description
  *
  * Return: Always 0 (Success)
  * @a: Variable
- * @b: Variable
+ * @n: Variable
  */
 
 void print_array(int *a, int n)
@@ -18,7 +19,7 @@ for (i = 0; i < n; i++)
 printf("%d", a[i]);
 if (i < n - 1)
 {
-_putchar(", ");
+printf(", ");
 }
 }
 _putchar('\n');
