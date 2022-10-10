@@ -20,7 +20,7 @@ for (lengh = 0; a[lengh] != '\0'; lengh++)
 }
 for (i = n; i <= lengh; i++)
 {
-_putchar(a[i]);
+_putchar(a[i] + 0);
 _putchar(',');
 _putchar(' ');
 }
