@@ -26,9 +26,8 @@ dest[lengh] = src[j];
 
 for (j = 0; j < n; j++)
 {
-}
-
 if (src[j] < n){dest[lengh] = '\0';}
+}
 
 return (dest);
 }
