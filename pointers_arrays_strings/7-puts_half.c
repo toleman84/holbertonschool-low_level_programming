@@ -15,10 +15,8 @@ int i;
 int lengh;
 int n;
 
-for (lengh = 0; str[lengh] != '\0'; lengh++){
-if ((lengh % 2) != 0){n = (lengh / 2) + 1;}
-else {n = (lengh / 2) + 1;}
-}
+for (lengh = 0; str[lengh] != '\0'; lengh++)
+
 for (i = n; i < lengh; i++)
 {
 _putchar(str[i]);
