@@ -15,7 +15,7 @@ int i, h, k, g, n;
 
 for (i = 0; str[i] != '\0'; i++)
 {
-h = str[i] / 2;
+h = i / 2;
 for (k = h; k < i; k++)
 {
 _putchar(str[i]);
@@ -23,7 +23,7 @@ _putchar(str[i]);
 
 if (str[i] % 2 != 0)
 {
-n = (str[i] - 1) / 2;
+n = (i - 1) / 2;
 for (g = n; g < i; g++)
 _putchar(str[g]);
 }
