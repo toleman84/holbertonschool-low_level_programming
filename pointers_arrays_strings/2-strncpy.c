@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * _strncopy - Short description
+ * _strncpy - Short description
  *
  * Return: 0 (Success)
  * @dest: Variable
@@ -21,6 +21,6 @@ dest[i] = src[i];
 for ( ; i < n; i++)
 dest[i] = '\0';
 
-return dest;
+return (dest);
 }
 
