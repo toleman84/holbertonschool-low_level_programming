@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+#include <string.h>
 
 /**
  * _strncopy - Short description
@@ -15,12 +15,11 @@ char *_strncpy(char *dest, char *src, int n)
 
 int i;
 
-for (i = 0; i < n; i++)
+for (i = 0; dest[i] != '\0'; ++i) {dest[i] = src[i];}
 
-while (src[i] != '\0') {dest[i] = src[i];}
+dest[i] = '\0';
+_putchar(dest[i]);
 
-for (; i < n; i++) {dest[i] = '\0';}
-
-return (dest);
+return (0);
 }
 
