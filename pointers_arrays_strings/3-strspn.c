@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _memset - Short description
+ * _strspn- Short description
  *
  * Return: Always 0 (Success)
  * @s: Variable
- * @b: Variable
- * @n: Variable
+ * @accept: Variable
  */
 
 unsigned int _strspn(char *s, char *accept)
