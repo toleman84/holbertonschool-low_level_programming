@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _memset - Short description
+ * _memcpy - Short description
  *
  * Return: Always 0 (Success)
- * @s: Variable
- * @b: Variable
+ * @dest: Variable
+ * @src: Variable
  * @n: Variable
  */
 
