@@ -17,20 +17,13 @@ for (i = 0; str[i] != '\0'; i++)
 if (i == 0 && (str[i] >= 'a' && str[i] <= 'z'))
 {
 str[i] = str[i] - 'a' + 'A';
-}
 
-}
-
-while (str[i] != '\0')
-{
-if ((str[i] >= 'a' && str[i] <= 'z') && (str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' || str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?' || str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' || str[i - 1] == '{' || str[i - 1] == '}' && i = 0))
+if ((str[i] >= 'a' && str[i] <= 'z') && (str[i - 1] == ' ' || str[i - 1] == '\t' || str[i - 1] == '\n' || str[i - 1] == ',' || str[i - 1] == ';' || str[i - 1] == '.' || str[i - 1] == '!' || str[i - 1] == '?' || str[i - 1] == '"' || str[i - 1] == '(' || str[i - 1] == ')' || str[i - 1] == '{' || str[i - 1] == '}'))
 {
 str[i] = str[i] - 32;
 }
-
-i++;
 }
-
+}
 return (str);
 }
 
