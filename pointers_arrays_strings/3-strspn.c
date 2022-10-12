@@ -24,6 +24,11 @@ if (accept[j] == s[i])
 {
 count++;
 }
+if (accept[j + 1] == '\0' && s[i] != accept[j])
+{
+return (count);
+}
+
 }
 i++;
 }
