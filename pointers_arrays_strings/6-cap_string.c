@@ -29,7 +29,7 @@ if (str[i] == ' ')
 }
 else
 {
-        if (str[i] >= 'A' && str[i] <= 'Z'){str[i] = str[i] + 'A' + 'a';}
+        if (str[i] >= 'A' && str[i] <= 'Z'){str[i] = str[i] + 32;}
 }
 }
 
