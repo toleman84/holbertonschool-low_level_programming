@@ -20,12 +20,13 @@ for (i = 0; str[i] != '\0'; i++)
 {
 for (j = 0; a[j] != '\0'; j++)
 {
-str[i] == a[j];
+if (str[i] == a[j])
 {
 str[i] = b[j];
 }
 }
 
 }
-
+return (str);
 }
+
