@@ -27,7 +27,10 @@ if(str[i] == ' ')
 	str[i] = str[i] - 'a' + 'A';
 	}
 }
-
+else
+{
+        if (str[i] >= 'A' && str[i] <= 'Z'){str[i] = str[i] - 'a' + 'A';}
+}
 }
 
 while (str[i] != '\0')
