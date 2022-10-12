@@ -3,12 +3,11 @@
 #include <string.h>
 
 /**
- * _memset - Short description
+ * _strchr - Short description
  *
  * Return: Always 0 (Success)
  * @s: Variable
- * @b: Variable
- * @n: Variable
+ * @c: Variable
  */
 
 char *_strchr(char *s, char c)
