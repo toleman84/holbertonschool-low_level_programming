@@ -20,11 +20,14 @@ while (s[i] != '\0')
 {
 for (j = 0 ; accept[j] != '\0'; j++)
 {
-if (accept[j] == s[i])
+if (s[i] == accept[j])
 {
 count++;
 }
-
+if (accept[j + 1] == '\0' && s[i] != accept[j])
+{
+return (count);
+}
 }
 i++;
 }
