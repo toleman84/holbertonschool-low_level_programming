@@ -2,9 +2,8 @@
 #include <stdio.h>
 
  /**
- * print_diagsums - print sums of diagonals in matrix 
+ * print_diagsums - print sums of diagonals
  *
- * Return: Always 0 (Success)
  * @a: Variable
  * @size: Variable
  */
