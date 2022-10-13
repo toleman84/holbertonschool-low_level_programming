@@ -20,10 +20,11 @@ for (j = 0; haystack[j] != '\0'; j++)
 {
 for (i = 0; needle[i] != '\0'; i++)
 {
-if (haystack[j] == needle[i]) {return (needle + j);}
+if (haystack[j] != needle[i]) {return (needle + j + 1);}
+}
+}
 
-}
-}
 return (NULL);
+
 }
 
