@@ -21,7 +21,7 @@ for (i = 0; needle[i] != '\0'; i++)
 {
 if (haystack[j] == needle[i])
 {
-return (needle + j - 1);
+return (haystack);
 }
 }
 }
