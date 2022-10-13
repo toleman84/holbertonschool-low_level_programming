@@ -24,6 +24,6 @@ if (needle == 0) {return (haystack);}
 
 }
 }
-
+return (NULL);
 }
 
