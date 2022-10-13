@@ -19,7 +19,7 @@ int sum2 = 0;
 for (i = 0; i < size; i++)
 {
 sum1 += a[i];
-a += size;
+a -= size;
 }
 
 for (i = 1; i < size; i++)
