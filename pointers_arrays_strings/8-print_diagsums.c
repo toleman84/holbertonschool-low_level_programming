@@ -2,7 +2,7 @@
 #include <stdio.h>
 
  /**
- * void print_diagsums - Short description.
+ * void print_diagsums - Short description
  *
  * Return: Always 0 (Success)
  * @a: Variable
