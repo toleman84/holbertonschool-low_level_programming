@@ -22,7 +22,7 @@ sum1 += a[i];
 a += size;
 }
 
-for (i = 0; i < size; i++)
+for (i = 1; i < size; i++)
 {
 sum2 += a[i];
 a -= size;
