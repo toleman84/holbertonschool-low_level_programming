@@ -1,10 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-#include <stddef.h>
-#include <string.h>
 
  /**
- * print_diagsums - Short description.
+ * void print_diagsums - Short description.
  *
  * Return: Always 0 (Success)
  * @a: Variable
