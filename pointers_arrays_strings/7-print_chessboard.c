@@ -1,21 +1,26 @@
 #include "main.h"
 
-#include "main.h"
-
 /**
- * _memset - Short description
+ * print_chessboard - Short description
  *
  * Return: Always 0 (Success)
- * @s: Variable
- * @b: Variable
- * @n: Variable
+ * @a: Variable
  */
 
 void print_chessboard(char (*a)[8])
 {
 
-_putchar(a);
+int i;
+int j;
 
+for (i = 0; i < 8; i++)
+{
+for (j = 0; j < 8; j++)
+{
+_putchar(a[i][j]);
+}
+_putchar('\n');
+}
 
 }
 
