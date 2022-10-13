@@ -22,8 +22,8 @@ for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == accept[j])
 {
+s = &s[i];
 return (s);
-
 }
 
 }
