@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stddef.h>
+#include <string.h>
 
 /**
  * _strstr - Short description
@@ -19,10 +20,8 @@ for (j = 0; haystack[j] != '\0'; j++)
 {
 for (i = 0; needle[i] != '\0'; i++)
 {
-if (needle[0] == '\0') {return (haystack);}
-if (haystack[j] == needle[i]) {j++, i++;}
-else {break;}
-if (needle[j] == '\0') {return (haystack + i);}
+if (haystack[j] == needle[i]) {return (needle + j + 1);}
+
 }
 }
 return (NULL);
