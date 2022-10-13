@@ -4,6 +4,7 @@
  /**
  * print_diagsums - print sums of diagonals
  *
+ * Return: Always 0 (Success)
  * @a: Variable
  * @size: Variable
  */
@@ -30,5 +31,7 @@ a -= size;
 }
 
 printf("%d, %d \n", sum1, sum2);
+
+return (0);
 }
 
