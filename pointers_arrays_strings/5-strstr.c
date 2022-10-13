@@ -24,6 +24,6 @@ if (haystack[j] == needle[i]) {return (needle + j);}
 
 }
 }
-return (NULL);
+return (0);
 }
 
