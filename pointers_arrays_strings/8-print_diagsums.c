@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stdio.h>
+#include <stddef.h>
+#include <string.h>
 
  /**
  * print_diagsums - Short description.
