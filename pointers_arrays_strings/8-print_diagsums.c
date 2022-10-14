@@ -3,8 +3,6 @@
 
  /**
  * print_diagsums - Short description
- *
- * Return: 0 (Success)
  * @a: Variable
  * @size: Variable
  */
