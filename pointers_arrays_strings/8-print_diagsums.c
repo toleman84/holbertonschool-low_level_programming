@@ -2,9 +2,11 @@
 #include <stdio.h>
 
  /**
- * print_diagsums - Short description
- * @a: Variable
- * @size: Variable
+ * print_diagsums - print sums of diagonals in matrix
+ *
+ * Return: Always 0 (Success)
+ * @a: matrix
+ * @size: size of matrix
  */
 
 void print_diagsums(int *a, int size)
