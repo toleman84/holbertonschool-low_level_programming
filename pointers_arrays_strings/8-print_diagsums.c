@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
- /**
+/**
  * print_diagsums - Shorts description
  *
  * @size: size of matrix
