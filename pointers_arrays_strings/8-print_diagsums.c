@@ -4,9 +4,8 @@
  /**
  * print_diagsums - Shorts description.
  *
- * Return: Always 0 (Success)
- * @a: matrix
- * @size: size of matrix
+ * @size: size of matrix.
+ * @a: matrix.
  */
 
 void print_diagsums(int *a, int size)
