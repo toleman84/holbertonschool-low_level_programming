@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - short description
+ * _strlen_recursion - Short description
  *
  * @s: first member
+ * Return: Always 0 (Success)
  */
 
 int _strlen_recursion(char *s)
