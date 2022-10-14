@@ -1,9 +1,8 @@
 #include "main.h"
 #include <stdio.h>
-#include <math.h>
 
  /**
- * print_diagsums - print sums of diagonals in matrix
+ * print_diagsums - Shorts description.
  *
  * Return: Always 0 (Success)
  * @a: matrix
