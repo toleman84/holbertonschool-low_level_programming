@@ -2,10 +2,11 @@
 #include <stdio.h>
 
  /**
- * print_diagsums - Shorts description.
+ * print_diagsums - Shorts description
  *
- * @size: size of matrix.
- * @a: matrix.
+ * @size: size of matrix
+ * @a: matrix
+ * Return: void
  */
 
 void print_diagsums(int *a, int size)
@@ -30,5 +31,6 @@ a -= size;
 }
 
 printf("%d, %d\n", sum1, sum2);
+
 }
 
