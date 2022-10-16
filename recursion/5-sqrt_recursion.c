@@ -8,10 +8,10 @@
  * Return: Always 0 (Success)
  */
 
-int sqrt_rec(int k, int n)
+int sqrt_rec(long k, long n)
 {
 
-int next_k = (k + n / k) / 2;
+long next_k = (k + n / k) / 2;
 
 if (k * k <= n && (k + 1) * (k + 1) > n)
 {
