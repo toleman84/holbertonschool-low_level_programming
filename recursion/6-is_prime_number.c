@@ -15,7 +15,7 @@ if (n / n == 1 && n / 1 == n)
 return (1);
 }
 
-else if (n / n != 1 && n / 1 != n)
+else if (n == 1 && n % 2 == 0)
 {
 return (0);
 }
