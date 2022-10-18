@@ -21,12 +21,12 @@ printf("Error\n");
 return (1);
 }
 
-if (argc > 1)
+if (argc > 0)
 {
-for (i = 1; i < argc; i++)
+for (i = 0; i < argc; i++)
 {
-a = atoi(argv[i]);
-b = atoi(argv[i]);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
 result = a *b;
 }
 printf("%d\n", result);
