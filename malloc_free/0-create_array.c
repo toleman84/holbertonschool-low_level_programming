@@ -17,11 +17,12 @@ char *ar;
 
 ar = malloc(sizeof(c) * size);
 
-if (ar == 0)
+if (ar == NULL)
 {
 return (NULL);
 }
 i = 0;
+
 if (size <= 0)
 {
 return (NULL);
