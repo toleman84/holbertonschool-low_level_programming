@@ -12,18 +12,27 @@
 
 char *create_array(unsigned int size, char c)
 {
+unsigned int i;
+char *ar;
 
-char *ar = malloc(size * sizeof(c));
-printf("%s\n", ar);
+ar = malloc(sizeof(c) * size);
 
-if (size == 0)
+if (ar == 0)
 {
 return (NULL);
 }
-
-if (!c)
+i = 0;
+if (size <= 0)
 {
 return (NULL);
+}
+else
+{
+while (i < size)
+{
+*(ar + i) = c;
+i++;
+}
 }
 
 return (0);
