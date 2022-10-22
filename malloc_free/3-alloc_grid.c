@@ -36,6 +36,7 @@ if (grid == NULL)
 return (NULL);
 }
 
+free(grid);
 return (grid);
 }
 
