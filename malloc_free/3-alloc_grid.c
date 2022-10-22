@@ -25,11 +25,9 @@ return (0);
 }
 
 grid = malloc(height * sizeof(int *));
-i = 0;
+
 if (grid == NULL)
 {
-for (i--; i >= 0; i--)
-free(grid);
 return (NULL);
 }
 
@@ -40,7 +38,10 @@ grid[i] = malloc(width * sizeof(int));
 if (grid[i] == NULL)
 {
 for (i--; i >= 0; i--)
+{
 free(grid[i]);
+}
+free(grid);
 return (NULL);
 }
 }
