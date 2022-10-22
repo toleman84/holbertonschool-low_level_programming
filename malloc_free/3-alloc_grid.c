@@ -23,16 +23,14 @@ if (height < 1)
 {
 return (0);
 }
-for (i = 0; i < width; i++)
-{
-grid = malloc(height * sizeof(int *));
 
+grid = malloc(height * sizeof(int *));
+i = 0;
 if (grid == NULL)
 {
 for (i--; i >= 0; i--)
 free(grid);
 return (NULL);
-}
 }
 
 for (i = 0; i < height; i++)
