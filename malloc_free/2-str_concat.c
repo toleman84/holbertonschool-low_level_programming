@@ -24,15 +24,10 @@ if (s2 == NULL)
 s2 = "";
 }
 
-s3 = malloc((strlen(s1) + (strlen(s2)) + 1) * sizeof(char));
+s3 = malloc((strlen(s1) + (strlen(s2)) + 1) * ((sizeof(s1)) + (sizeof(s2))));
 
 strcat(s3, s1);
 strcat(s3, s2);
-
-if (s3 == NULL)
-{
-return (NULL);
-}
 
 return (s3);
 }
