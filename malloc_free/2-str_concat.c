@@ -41,11 +41,10 @@ return (NULL);
 for (i = 0; i < len1; i++)
 {
 p[i] = s1[i];
-}
-p[i] = '\0';
 for (i = 0; i < len2; i++)
 {
 p[i] = s2[i];
+}
 }
 p[i] = '\0';
 
