@@ -32,6 +32,12 @@ if (p == NULL)
 return (NULL);
 }
 
+if (*str == '\0')
+{
+*p = '\0';
+return (p);
+}
+
 for (i = 0; str[i] != '\0'; i++)
 {
 p[i] = p[1];
