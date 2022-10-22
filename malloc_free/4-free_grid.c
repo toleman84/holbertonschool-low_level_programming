@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - Short description
+ * free_grid - Short description
  *
- * @width: first member
+ * @grid: first member
  * @height: second member
  * Return: Always 0 (Success)
  */
