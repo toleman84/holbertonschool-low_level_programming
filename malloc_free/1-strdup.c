@@ -20,15 +20,15 @@ if (str == NULL)
 return (NULL);
 }
 
-p = malloc((sizeof(str) * strlen(str)) + 1);
+p = malloc((sizeof(char) * strlen(str)) + 1);
 
-while (*(str + i) != '\0')
+for (i = 0; str[i] != '\0'; i++)
 {
 *(p + i) = *(str + i);
-i++;
+p[i + 1] = '\0';
 }
-free(p);
 
+free(p);
 return (p);
 }
 
