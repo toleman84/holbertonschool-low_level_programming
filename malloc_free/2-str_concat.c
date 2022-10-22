@@ -19,11 +19,11 @@ char *p;
 
 if (s1 == NULL)
 {
-s1 = '\0';
+s1 = "";
 }
 if (s2 == NULL)
 {
-s2 = '\0';
+s2 = "";
 }
 for (i = 0; s1[i] != '\0'; i++)
 {
@@ -38,16 +38,16 @@ if (p == NULL)
 {
 return (NULL);
 }
-for (i = 0; s1[len1] != '\0'; i++)
+for (i = 0; i < len1; i++)
 {
-p[i] = s1[len1];
+p[i] = s1[i];
 }
-p[len1] = '\0';
-for (i = 0; s2[len2] != '\0'; i++)
+p[i] = '\0';
+for (i = 0; i < len2; i++)
 {
-p[i] = s2[len2];
+p[i] = s2[i];
 }
-p[len2] = '\0';
+p[i] = '\0';
 
 return (p);
 }
