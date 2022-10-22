@@ -28,6 +28,8 @@ grid = malloc(height * sizeof(int *));
 
 if (grid == NULL)
 {
+for (i--; i >= 0; i--)
+free(grid);
 return (NULL);
 }
 
