@@ -26,6 +26,11 @@ s2 = "";
 
 s3 = malloc((strlen(s1) + (strlen(s2)) + 1) * sizeof(char));
 
+if (s3 == NULL)
+{
+return (NULL);
+}
+
 strcat(s3, s1);
 strcat(s3, s2);
 
