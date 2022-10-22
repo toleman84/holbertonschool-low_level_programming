@@ -36,6 +36,11 @@ if (grid == NULL)
 return (NULL);
 }
 
+if (grid[i] == NULL)
+{
+return (NULL);
+}
+
 return (grid);
 }
 
