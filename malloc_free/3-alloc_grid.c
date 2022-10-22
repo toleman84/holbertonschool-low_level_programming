@@ -23,7 +23,7 @@ if (height < 1)
 {
 return (0);
 }
-for (i = 0; i < height; i++)
+for (i = 0; i < width; i++)
 {
 grid = malloc(height * sizeof(int *));
 
@@ -35,7 +35,7 @@ return (NULL);
 }
 }
 
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
 grid[i] = malloc(width * sizeof(int));
 
