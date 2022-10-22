@@ -35,7 +35,7 @@ return (NULL);
 }
 }
 
-for (i = 0; i < height; i++)
+for (i = 0; i < width; i++)
 {
 grid[i] = malloc(width * sizeof(int));
 
