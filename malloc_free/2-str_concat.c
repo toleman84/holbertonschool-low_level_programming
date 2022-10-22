@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * str_concat - Short description
@@ -30,6 +29,7 @@ s3 = malloc((strlen(s1) + (strlen(s2)) + 1) * sizeof(char));
 strcat(s3, s1);
 strcat(s3, s2);
 
+free(s3);
 return (s3);
 }
 
