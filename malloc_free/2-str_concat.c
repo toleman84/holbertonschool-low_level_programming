@@ -33,20 +33,21 @@ for (j = 0; s2[j] != '\0'; j++)
 {
 len2++;
 }
+
 p = malloc(sizeof(char) * (len1 + len2 + 1));
+
 if (p == NULL)
 {
 return (NULL);
 }
+
 for (i = 0; i < len1; i++)
 {
 p[i] = s1[i];
-}
-p[i] = '\0';
-
 for (j = 0; j < len2; j++)
 {
 p[i] = s2[j];
+}
 }
 p[i] = '\0';
 
