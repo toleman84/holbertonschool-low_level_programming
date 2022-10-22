@@ -40,16 +40,16 @@ if (p == NULL)
 {
 return (NULL);
 }
-
-for (i = 0; i < len1; i++)
+for (i = 0; s1[i] != '\0'; i++)
 {
 p[i] = s1[i];
-for (j = 0; j < len2; j++)
+}
+for (j = 0; s2[j] != '\0'; j++)
 {
 p[i] = s2[j];
+i++;
 }
-}
-p[i] = '\0';
+p[len2] = '\0';
 
 return (p);
 }
