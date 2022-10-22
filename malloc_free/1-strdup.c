@@ -40,9 +40,9 @@ return (p);
 
 for (i = 0; str[i] != '\0'; i++)
 {
-p[i] = p[1];
+p[i] = str[i];
 }
-p[i] = '\0';
+p[len + 1] = '\0';
 
 
 free(p);
