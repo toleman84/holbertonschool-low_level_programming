@@ -1,0 +1,54 @@
+#include "main.h"
+#include <stdlib.h>
+#include <string.h>
+
+/**
+ * str_concat - Short description
+ *
+ * @s1: first member
+ * @s2: second member
+ * Return: Always 0 (Success)
+ */
+
+char *str_concat(char *s1, char *s2)
+{
+int i;
+int len1 = 0;
+int len2 = 0;
+char *p;
+
+if (s1 == NULL)
+{
+s1 = '\0';
+}
+if (s2 == NULL)
+{
+s2 = '\0';
+}
+for (i = 0; s1[i] != '\0'; i++)
+{
+len1++;
+}
+for (i = 0; s2[i] != '\0'; i++)
+{
+len2++;
+}
+p = malloc(sizeof(char) * (len1 + len2 + 1));
+if (p == NULL)
+{
+return (NULL);
+}
+for (i = 0; s1[len1] != '\0'; i++)
+{
+p[i] = s1[len1];
+}
+p[len1] = '\0';
+for (i = 0; s2[len2] != '\0'; i++)
+{
+p[i] = s2[len2];
+}
+p[len2] = '\0';
+
+return (p);
+}
+
