@@ -26,7 +26,7 @@ for (i = 0; str[i] != '\0'; i++)
 len++;
 }
 
-p = malloc(sizeof(char) * (len + 1));
+p = malloc((len + 1) * sizeof(char));
 
 if (p == NULL)
 {
@@ -38,7 +38,6 @@ for (i = 0; str[i] != '\0'; i++)
 str[i] = p[i];
 p[len + 1] = '\0';
 }
-
 free(p);
 return (p);
 }
