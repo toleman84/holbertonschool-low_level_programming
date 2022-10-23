@@ -30,6 +30,7 @@ s3 = malloc(sizeof(char) * (n + 1));
 
 if (s3 == NULL)
 {
+free(s3);
 return (NULL);
 }
 
