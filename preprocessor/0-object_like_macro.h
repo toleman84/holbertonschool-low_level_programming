@@ -1,5 +1,5 @@
-#ifndef NULL
-#define NULL (void *)0
+#ifndef _OBJECT_LIKE_MACRO_H_
+#define _OBJECT_LIKE_MACRO_H_
 
 #define SIZE 1024
 
