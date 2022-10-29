@@ -36,9 +36,9 @@ doggy = malloc(sizeof(owner) * (strlen(owner) + 1));
 		return (NULL);
 	}
 
-	doggy->name = strcpy(doggy->name, name);
-	doggy->age = age;
-	doggy->owner = strcpy(doggy->owner, owner);
+doggy->name = strcpy(doggy->name, name);
+doggy->age = age;
+doggy->owner = strcpy(doggy->owner, owner);
 
 return (doggy);
 }
