@@ -21,14 +21,14 @@ doggy = malloc(sizeof(dog_t));
 		return (NULL);
 	}
 
-doggy = malloc(sizeof(name) * strlen(name) + 1);
+doggy = malloc(sizeof(name) * (strlen(name) + 1));
 	if (doggy->name == NULL)
 	{
 		free(doggy);
 		return (NULL);
 	}
 
-doggy = malloc(sizeof(owner) * strlen(owner) + 1);
+doggy = malloc(sizeof(owner) * (strlen(owner) + 1));
 	if (doggy->owner == NULL)
 	{
 		free(doggy->name);
