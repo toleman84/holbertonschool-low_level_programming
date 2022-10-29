@@ -31,6 +31,7 @@ doggy = malloc(sizeof(name) * strlen(name) + 1);
 doggy = malloc(sizeof(owner) * strlen(owner) + 1);
 	if (doggy->owner == NULL)
 	{
+		free(doggy->name);
 		free(doggy);
 		return (NULL);
 	}
