@@ -1,10 +1,12 @@
 #include "function_pointers.h"
 
 /**
- * - Short description.
+ * int_index - Short description.
+ * @array: first member.
+ * @size: second member.
+ * @cmp: third member.
  *
- *
- * Return:
+ * Return: Always 0 (Success)
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
