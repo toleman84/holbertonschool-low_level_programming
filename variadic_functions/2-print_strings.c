@@ -30,7 +30,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		{
 			continue;
 		}
-		if (i < n - 1)
+		if (i != (n - 1))
 		{
 			printf("%s", separator);
 		}
