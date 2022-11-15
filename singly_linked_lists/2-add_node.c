@@ -3,6 +3,7 @@
 /**
  * add_node - Short description.
  * @str: first member.
+ * @head: second member.
  *
  * Return: new_node.
  */
