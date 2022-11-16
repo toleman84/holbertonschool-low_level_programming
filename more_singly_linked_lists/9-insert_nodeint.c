@@ -6,7 +6,7 @@
  * @idx: second member.
  * @n: third member.
  *
- * Return: 
+ * Return: new_node.
  */
 
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
