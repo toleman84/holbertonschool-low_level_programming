@@ -20,10 +20,10 @@ int __exit(int error, char *s, int file)
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", s);
 			exit(error);
 		case 99:
-			dprintf(STDERR_FILENO, "Can't write to %s\n", s);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", s);
 			exit(error);
 		case 100:
-			dprintf(STDERR_FILENO, "Can't close fd %d\n", file);
+			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 			exit(error);
 		default:
 			return (0);
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 	if (argc != 3)
 		__exit(97, NULL, 0);
 
-/*sets file descript    or copy to file*/
+/*sets file descriptor copy to file*/
 	file_2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 	if (file_2 == -1)
 		__exit(99, argv[2], 0);
@@ -70,16 +70,8 @@ int main(int argc, char *argv[])
 			__exit(99, argv[2], 0);
 	}
 
-	if (file_2 == -1)
-	{
-		__exit(100, NULL, file_2);
-		close(file_2);
-	}
-	if (file_1 == -1)
-	{
-		__exit(100, NULL, file_1);
-		close(file_1);
-	}
+	close(file_2) == -1 ? (__exit(100, NULL, file_2)) : close(file_2);
+	close(file_1) == -1 ? (__exit(100, NULL, file_1)) : close(file_1);
 
 	return (0);
 }
