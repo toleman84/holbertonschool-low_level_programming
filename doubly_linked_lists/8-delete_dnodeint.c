@@ -4,6 +4,8 @@
  * delete_dnodeint_at_index - Short description.
  * @head: first member.
  * @index: second member.
+ *
+ * Return: Always.
  */
 
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
