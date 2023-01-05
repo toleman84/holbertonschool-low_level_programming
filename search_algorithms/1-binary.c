@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 /**
- * binary_search - Short description
+ * binary_search - Short description.
  * @array: first member
  * @size: second member
  * @value: third member
