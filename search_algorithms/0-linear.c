@@ -21,12 +21,6 @@ int linear_search(int *array, size_t size, int value)
         {
             return(i);
         }
-    // Si i < n, vaya al paso 2. De lo contrario, la búsqueda finaliza sin éxito.
-        if (i < size)
-            continue;
-        else
-            break;
-
         printf("Value checked array[0] = [10]");
     }
     return (-1);
