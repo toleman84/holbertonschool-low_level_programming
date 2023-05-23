@@ -41,22 +41,3 @@ int binary_search(int *array, size_t size, int value)
     }
     return (-1);
 }
-
-function binary_search(A, n, T) is
-    L := 0
-    R := n − 1
-    while L ≤ R do
-        m := floor((L + R) / 2)
-        if A[m] < T then
-            L := m + 1
-        else if A[m] > T then
-            R := m − 1
-        else:
-            return m
-    return unsuccessful
-
-Your function must return the index where value is located
-You can assume that array will be sorted in ascending order
-You can assume that value won’t appear more than once in array
-If value is not present in array or if array is NULL, your function must return -1
-You must print the array being searched every time it changes. (e.g. at the beginning and when you search a subarray) (See example)
