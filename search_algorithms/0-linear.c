@@ -10,20 +10,24 @@
  */
 int linear_search(int *array, size_t size, int value)
 {
-    If value is not present in array or if array is NULL
-    return the first index where value is located
-    printf("Value checked array[0] = [10]");
-    your function must return -1
+    int i;
+
+    if (array == NULL || size == 0)
+        return (-1);
+
+    for (i = 0; i < array[size - 1]; i++)
+    {
+        if (array[i] == value)
+        {
+            return(i);
+        }
+    // Si i < n, vaya al paso 2. De lo contrario, la búsqueda finaliza sin éxito.
+        if (i < size)
+            continue;
+        else
+            break;
+
+        printf("Value checked array[0] = [10]");
+    }
+    return (-1);
 }
-
-/*
-If value is not present in array or if array is NULL
-return the first index where value is located
-your function must return -1
-
-
-Every time you compare a value in the array to the value you are searching, 
-you have to print this value (see example below)
-
-Value checked array[0] = [10]
-*/
